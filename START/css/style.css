@@ -125,6 +125,26 @@ html {
    z-index: 3;
 }
 
+.windows {
+    opacity: 0;
+}
+
+.sign {
+    animation: flicker 30s ease-in-out infinite alternate;
+}
+
+@keyframes flicker {
+    0% {
+        fill: #FFFFFF;
+    }
+    50% {
+        fill: #ADD8E6;
+    }
+    100% {
+        fill: #FFFFFF;
+    }
+}
+
 /* PIER END */
 
 
